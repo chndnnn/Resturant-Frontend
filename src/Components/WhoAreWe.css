@@ -1,0 +1,32 @@
+.whoRwe{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+.whoRwe1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.whoRwe1 h2{
+    font-size: 40px;
+}
+.whoRwe1 p{
+    color: grey;
+}
+.whoweare1{
+    height: 400px;
+    width: 30%;
+    background-image: url("./center.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.whoweare1 img{
+    height: 400px;
+    width: 100%;
+}

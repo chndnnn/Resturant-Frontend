@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.HeroContainer{
+    padding-top: 135px;
+    height: 420px;
+    width: 100%;
+    display: flex;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e2c8c1",GradientType=1);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cecfa9",GradientType=1);
+}
+.Herobox1{
+    height: 400px;
+    width:40%
+}
+.Herobox1 img{
+    height: 230px;
+    margin-left: 55%;
+}
+.Herobox2 img{
+    margin-left: 18px;
+}
+
+.Herobox3 img{
+    height: 250px;
+   margin-left: 50px;
+}
+.Herobox2{
+    height: 400px;
+    width:20%
+}
+.Herobox3{
+    height: 400px;
+    width:40%;
+
+}
+@media screen and (max-width:600px) {
+
+    .HeroContainer{
+        width: 340px; 
+        display: flex;
+    }
+
+    .Herobox3 img{
+        display: none;
+    }
+    .Herobox3 p{
+        margin-top : 204px;
+        margin-left: -15px;
+    }
+
+    .heroSection{
+        background: rgb(255,255,255);
+        background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e2c8c1",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cecfa9",GradientType=1);
+        width: 373px;
+    }
+    
+}

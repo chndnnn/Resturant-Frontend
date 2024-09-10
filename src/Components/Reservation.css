@@ -1,0 +1,102 @@
+.reservation{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(242,238,235,1) 77%, rgba(226,200,193,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e2c8c1",GradientType=1);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cecfa9",GradientType=1);
+}
+.ReservImg{
+   height: 440px;
+   width: 50%;
+   display: flex;
+   justify-content:end;
+   align-items: center;
+}
+
+.ReservImg img{
+    height: 450px;
+   width: 70%;
+}
+.reservForm{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.reserveForm1 input{
+    width: 360px;
+    height: 27px;
+ 
+}
+.reserveForm1 select{
+    width: 194px;
+    height: 30px;
+    border-radius: 4px;
+    
+}
+.reserveForm1{
+    height: 230px;
+    width: 400px;
+    padding-left: 4px;
+    padding-top: 8px;
+    box-shadow: 10px 10px 8px rgba(244, 12, 12, 0.1);
+}
+.datePicker{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    width: 390px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.popUp{
+    position:absolute;
+    height: 400px;
+    width: 900px;
+    left: 20%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    z-index: 2;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/PopupBackground.PNG');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    box-shadow: 15px 15px 8px rgba(15, 15, 15, 0.1);
+}
+.popUp1{
+    display: none;
+}
+.popUp img{
+    height: 340px;
+    width: 802px;
+    box-shadow: 15px 15px 8px rgba(235, 233, 233, 0.1);
+}
+.spinner {
+    border: 16px solid silver;
+    border-top: 16px solid #222;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 700ms linear infinite;
+    top:35%;
+    left:43%;
+    position: absolute;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(-360deg) }
+  }

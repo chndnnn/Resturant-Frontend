@@ -1,0 +1,54 @@
+.menuSection{
+    margin-top: 90px;
+}
+
+.menuHeader{
+    margin: 0 auto;
+    margin-top: 10px;
+    height :70px;
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menuList{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.eachMenu{
+   width: 270px;
+   height: 318px;
+   margin: 1px 2px;
+}
+.eachMenu img{
+    width: 250px;
+    height: 280px;
+}
+
+.eachMenu img:hover{
+    width: 240px;
+    height: 279px;
+}
+
+@media screen and (max-width:600px) {
+
+    .menuSection{
+        margin-top: 140px;
+    }
+    .menuList{
+        margin-top: 70px;
+        height: 620px;
+        overflow: scroll;
+    }
+    .eachMenu{
+        margin-left: 30px;
+    }
+    
+}
